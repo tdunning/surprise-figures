@@ -25,3 +25,6 @@ On Linux, I think that the following will work:
 ```bash
 $ xdg-open *.pdf
 ```
+
+[1] http://tdunning.blogspot.com/2008/03/surprise-and-coincidence.html
+[2] https://www.r-project.org/
