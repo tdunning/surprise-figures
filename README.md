@@ -1,12 +1,12 @@
 # Recreate figures from Surprise and Coincidence paper
 
-The scripts here recreate, exactly in most cases, the figures from my 1993 paper[1] that described how to use a generalized log-likelihood ratio test for testing for interesting coincidence.
+The scripts here recreate, exactly in most cases, the figures from [my 1993 paper](http://tdunning.blogspot.com/2008/03/surprise-and-coincidence.html) that described how to use a generalized log-likelihood ratio test for testing for interesting coincidence.
 
 One particular note is that apparently the axes were swapped in Figure 2. Moreover, various small changes in conditions could make the relationship between the LLR test and Pearson's chi-squared test look noticeably different. The script reproduces the original figure as well as several variants (with the right axis labels!).
 
 ## Running the scripts
 
-To run the scripts on a reasonably Linux-like machine, install R[2] and use the following commands:
+To run the scripts on a reasonably Linux-like machine, [install R](http://tdunning.blogspot.com/2008/03/surprise-and-coincidence.html) and use the following commands:
 
 ```bash
 $ for x in fig*.r
@@ -25,6 +25,3 @@ On Linux, I think that the following will work:
 ```bash
 $ xdg-open *.pdf
 ```
-
-[1] http://tdunning.blogspot.com/2008/03/surprise-and-coincidence.html
-[2] https://www.r-project.org/
